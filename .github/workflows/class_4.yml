@@ -39,4 +39,4 @@ jobs:
         run: npm install -g surge
     
       - name: deploying on surge
-        run: surge ./build http://greasy-wool.surge.sh/ --token ${{ secrets.SURGE_TOKEN9 }}
+        run: surge ./build mindless-shock.surge.sh --token ${{ secrets.SURGE_TOKEN9 }}
