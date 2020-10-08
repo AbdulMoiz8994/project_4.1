@@ -37,5 +37,3 @@ jobs:
     
       - name: deploying on surge
         run: surge ./build frightened-floor.surge.sh --token ${{ secrets.SURGE_TOKEN9 }}
-          echo Add other actions to build,
-          echo test, and deploy your project.
